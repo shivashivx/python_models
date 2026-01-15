@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>All Department</h1>
+        {% for dep  in departments %}
+        <h4>{{dep.name}}</h4>
+        <p>{{dep.description}}</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
